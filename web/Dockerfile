@@ -1,3 +1,3 @@
-FROM nginx
+FROM nginx:latest 
 EXPOSE 3000
-COPY html/* /usr/share/nginx/html/
+COPY . /user/share/nginx/html/
